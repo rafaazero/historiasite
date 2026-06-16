@@ -132,19 +132,21 @@ section img{
 
 
 button{
-    background-color: #333333;
-    color: #ffffff;
-    border-radius: 20px;
-    padding: 10px 40px;
+    padding: 12px 30px;
+
     border: none;
+    border-radius: 20px;
+
     cursor: pointer;
+
     transition: 0.3s;
+    font-weight: bold;
 }
 
 button:hover{
-    background-color: rgb(0, 0, 0);
-    border: 1.5px solid #333333;
+    transform: scale(1.05);
 }
+
 
 .quiz{
     gap: 10px;
