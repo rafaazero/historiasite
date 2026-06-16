@@ -18,14 +18,14 @@ function mostrarResultado() {
         mensagem = "Desiste da vida";
     }
      else if (pontos === 1) {
-        mensagem = "1 de 3? fala serio..."
+        mensagem = "1? fala serio..."
     } else if (pontos === 2) {
-        mensagem = "2 de 3? foi bem, tá?"
+        mensagem = "2? éééééééééééééééééééééééééé"
     } else if (pontos === 3) {
-        mensagem = "3 de 3? Vai fazer o ITA é?"
+        mensagem = "3? brabo, tá?"
     }
       else if (pontos === 4) {
-        mensagem = "4 de 5? Ta bem, tá?"
+        mensagem = "4 de 5? ótimo, tá?"
       }
          else if (pontos === 5) {
         mensagem = "5 de 5? pábéns paçóu"
