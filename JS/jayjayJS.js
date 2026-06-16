@@ -22,7 +22,7 @@ function mostrarResultado() {
     } else if (pontos === 2) {
         mensagem = "2? éééééééééééééééééééééééééé"
     } else if (pontos === 3) {
-        mensagem = "3? brabo, tá?"
+        mensagem = "3? o própio socarates"
     }
       else if (pontos === 4) {
         mensagem = "4 de 5? ótimo, tá?"
