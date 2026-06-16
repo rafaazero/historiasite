@@ -1,3 +1,5 @@
+@import url('https://googleapis.com');
+
 * {
     margin: 0% 0%;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #333;
     background-color: #ffffff;
 }
@@ -20,10 +22,28 @@ main {
 footer {
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+    justify-items: center;
+    margin: 0px 0px 15px 30px;
 
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    justify-self: center;
+    margin-top: 50px;
+}
+footer p{
+    text-decoration: none;
+    color: #fff;
+    justify-self: center;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #fff;
 }
 
 h1, h2, h3 {
@@ -44,15 +64,16 @@ h1, h2, h3 {
 
 
 .banner {
-    background-image: url('../imagens/paginaprincipal.jpg');
+    background-image:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5)), url('../imagens/paginaprincipal.jpg');
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
     width: 100%;
-    height: 45vh;
+    height: 60vh;
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     color: white;
+    border-radius: 10px;    
 }
 
 .banner h1 {
@@ -73,7 +94,7 @@ section{
 }
 .navbar{
     background-color: #333;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -81,8 +102,14 @@ section{
 }
 
 .logo{
-    color: white;
-    font-weight: bold;
+    height: 70px;
+    width: auto;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'oswald', sans-serif;
 }
 
 .menu{
@@ -94,6 +121,7 @@ section{
 
     flex: 1;
     justify-content: space-evenly;
+    max-block-size: 20px;
 }
 
 .navbar a{
@@ -111,8 +139,8 @@ section{
 }
 
 button{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #333;
     border-radius: 20px;
     padding: 10px 40px;
     border: none;
@@ -126,12 +154,15 @@ button:hover{
 
 }
 
-.destaque{
-    font-size: 24px;
+.destaque h1{
+    font-size: 40px;
     font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    color: #333;
+    margin-bottom: 10px;
+    justify-self: flex-start;
+    margin-left: 70px;
+    text-decoration: underline(rgba 200, 200, 255, 0);
+    font-family: 'Oswald', sans-serif;
 }
 
 .imagem{
@@ -150,11 +181,12 @@ button:hover{
     background-color: #333;
     border-radius: 8px;
     display: block;
-    max-width: 300px;
     text-align: center;
     align-items: center;
     color:#fff;
     margin-bottom: 20px;
+    flex: auto;
+    box-sizing: border-box;
 }
 
 .zoom img{
@@ -186,9 +218,64 @@ button:hover{
 
 }
 
-.quiz{
+.principal {
+    display: block;
+    padding: 30px;
+}
+
+.notprincipal {
+    padding: 70px 400px;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(../imagens/revolucaofrancesa.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    transition: background-size 0.5s;
+    transition: 1s;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.titulo{
+    margin: 0 0 15px 15px;
+}
+
+.notprincipal:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.sb{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 80px;
+}
+
+.secao{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 70px;
+    margin-bottom: 40px;
+}
+
+.contato{
+    display: flex;
+    gap:10px;
+    margin-top: 0%;
+}
+
+.contato img{
+    text-decoration: none;
+    max-width: 20px;
+    transition: transform 0.3s;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+    flex: auto;
+    box-sizing: border-box;
+}
+
+.contato img:hover{
+    background-color: #1d1d1d;
 }
