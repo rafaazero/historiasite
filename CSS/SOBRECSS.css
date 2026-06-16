@@ -1,7 +1,10 @@
 body{ 
     background-color: #ffffff;
     font-family: Arial, sans-serif;
-    margin-right: 41px;
+}
+
+body p{
+    margin-right: 45px;
 }
 
 .container{
