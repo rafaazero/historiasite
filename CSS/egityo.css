@@ -172,6 +172,14 @@ button:hover{
     transform: scale(1.05);
 }
 
+button.ativo{
+    background-color: #ddd;
+    color: #000 !important;
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+
 #marrom{
     background-color: #964B00;
     color: white;

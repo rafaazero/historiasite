@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revolução Francesa</title>
     <link rel="stylesheet" href="../CSS/paginafranca.css">
-    <script src="../JS/jayjayJS.js"></script>
+    <script src="../JS/jayjayJS.js" defer></script>
 </head>
 <body>
 
@@ -91,21 +91,24 @@
     <h2>Quiz da Revolução Francesa</h2>
     </div>
     <div class="quiz">
+    <div>
     <p>1. Em que ano começou a Revolução Francesa?</p>
-    <button id="azul" onclick="responder(1, 'errado')">1776</button>
-    <button id="branco" onclick="responder(1, 'certo')">1789</button>
-    <button id="vermelho" onclick="responder(1, 'errado')">1815</button>
-
+    <button id="azul" class="resposta" onclick="responder(1, 'errado')">1776</button>
+    <button id="branco" class="resposta" onclick="responder(1, 'certo')">1789</button>
+    <button id="vermelho" class="resposta" onclick="responder(1, 'errado')">1815</button>
+    </div>
+    <div>
     <p>2. Qual prisão foi tomada em 14 de julho de 1789?</p>
-    <button id="azul" onclick="responder(2, 'errado')">Versalhes</button>
-    <button id="branco" onclick="responder(2, 'certo')">Bastilha</button>
-    <button id="vermelho" onclick="responder(2, 'errado')">Louvre</button>
-
+    <button id="azul" class="resposta" onclick="responder(2, 'errado')">Versalhes</button>
+    <button id="branco" class="resposta" onclick="responder(2, 'certo')">Bastilha</button>
+    <button id="vermelho" class="resposta" onclick="responder(2, 'errado')">Louvre</button>
+    </div>
+    <div>
     <p>3. Quem era o rei da França?</p>
-    <button id="azul" onclick="responder(3, 'errado')">Napoleão</button>
-    <button id="branco" onclick="responder(3, 'certo')">Luís XVI</button>
-    <button id="vermelho" onclick="responder(3, 'errado')">Luís XIV</button>
-
+    <button id="azul" class="resposta" onclick="responder(3, 'errado')">Napoleão</button>
+    <button id="branco" class="resposta" onclick="responder(3, 'certo')">Luís XVI</button>
+    <button id="vermelho" class="resposta" onclick="responder(3, 'errado')">Luís XIV</button>
+    </div>
     <br><br>
     <button onclick="mostrarResultado()">Ver Resultado</button>
 

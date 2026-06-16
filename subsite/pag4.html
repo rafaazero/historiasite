@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toda História</title>
     <link rel="stylesheet" href="../CSS/grecia.css">
-     <script src="JS/jayjayJS.js"></script>
+     <script src="../JS/jayjayJS.js" defer></script>
 
 </head>
 <body>
@@ -300,22 +300,26 @@
     <div class="texto">
     <h2>Quiz da Grécia Antiga</h2>
     </div>
-    <div class="quiz">
+<div class="quiz">
+    <div>
     <p>1. Qual filósofo acreditava que tudo era água?</p>
-    <button id="azul" onclick="responder(1, 'errado')">Sócrates</button>
-    <button id="branco" onclick="responder(1, 'certo')">Tales</button>
-    <button id="vermelho" onclick="responder(1, 'errado')">Alexandre</button>
-
+    <button id="azul" class="resposta" onclick="responder(1, 'errado')">Sócrates</button>
+    <button id="branco" class="resposta" onclick="responder(1, 'certo')">Tales</button>
+    <button id="vermelho" class="resposta" onclick="responder(1, 'errado')">Alexandre</button>
+    </div>
+    <div>
     <p>2. Qual Poli "Nasceu" o termo Democracia?</p>
-    <button id="azul" onclick="responder(2, 'certo')">Atena</button>
-    <button id="branco" onclick="responder(2, 'errado')">Belém</button>
-    <button id="vermelho" onclick="responder(2, 'errado')">Esparta</button>
-
+    <button id="azul" class="resposta" onclick="responder(2, 'certo')">Atena</button>
+    <button id="branco" class="resposta" onclick="responder(2, 'errado')">Belém</button>
+    <button id="vermelho" class="resposta" onclick="responder(2, 'errado')">Esparta</button>
+    </div>
+     <div>
     <p>3. Em qual continente está localizada a Grécia?</p>
-    <button id="azul" onclick="responder(3, 'errado')">América</button>
-    <button id="branco" onclick="responder(3, 'certo')">Europa</button>
-    <button id="vermelho" onclick="responder(3, 'errado')">Oceania</button>
-
+    <button id="azul" class="resposta" onclick="responder(3, 'errado')">América</button>
+    <button id="branco" class="resposta" onclick="responder(3, 'certo')">Europa</button>
+    <button id="vermelho" class="resposta" onclick="responder(3, 'errado')">Oceania</button>
+    </div>
+    
     <br><br>
     <button onclick="mostrarResultado()">Ver Resultado</button>
 

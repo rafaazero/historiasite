@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Egito Antigo</title>
     <link rel="stylesheet" href="../CSS/egityo.css">
-    <script src="../JS/jayjayJS.js"></script>
+    <script src="../JS/jayjayJS.js" defer></script>
 </head>
 <body>
 
@@ -179,31 +179,38 @@
     </div>
 
     <div class="quiz">
-
+        <div>
         <p>1. Qual rio foi essencial para o Egito Antigo?</p>
-        <button id="marrom" onclick="responder(1,'errado')">Amazonas</button>
-        <button id="dourado" onclick="responder(1,'certo')">Nilo</button>
-        <button id="amarelo" onclick="responder(1,'errado')">Tigre</button>
-
+        <button id="marrom" class="resposta" onclick="responder(1,'errado')">Amazonas</button>
+        <button id="dourado" class="resposta" onclick="responder(1,'certo')">Nilo</button>
+        <button id="amarelo" class="resposta" onclick="responder(1,'errado')">Tigre</button>
+        </div>
+        <div>
         <p>2. Quem governava o Egito?</p>
-        <button id="marrom" onclick="responder(2,'certo')">Faraó</button>
-        <button id="dourado" onclick="responder(2,'errado')">Senador</button>
-        <button id="amarelo" onclick="responder(2,'errado')">Imperador Romano</button>
+        <button id="marrom" class="resposta" onclick="responder(2,'certo')">Faraó</button>
+        <button id="dourado" class="resposta" onclick="responder(2,'errado')">Senador</button>
+        <button id="amarelo" class="resposta" onclick="responder(2,'errado')">Imperador Romano</button>
+        </div>
+         <div>
 
         <p>3. Para que serviam as pirâmides?</p>
-        <button id="marrom" onclick="responder(3,'errado')">Mercados</button>
-        <button id="dourado" onclick="responder(3,'certo')">Túmulos</button>
-        <button id="amarelo" onclick="responder(3,'errado')">Palácios</button>
-
+        <button id="marrom" class="resposta" onclick="responder(3,'errado')">Mercados</button>
+        <button id="dourado" class="resposta" onclick="responder(3,'certo')">Túmulos</button>
+        <button id="amarelo" class="resposta" onclick="responder(3,'errado')">Palácios</button>
+        </div>
+        <div>
         <p>4. Como era chamada a escrita egípcia?</p>
-        <button id="marrom"onclick="responder(4,'certo')">Hieróglifos</button>
-        <button id="dourado" onclick="responder(4,'errado')">Latim</button>
-        <button id="amarelo" onclick="responder(4,'errado')">Grego</button>
+        <button id="marrom" class="resposta"onclick="responder(4,'certo')">Hieróglifos</button>
+        <button id="dourado" class="resposta" onclick="responder(4,'errado')">Latim</button>
+        <button id="amarelo" class="resposta" onclick="responder(4,'errado')">Grego</button>
+        </div>
+         <div>
 
         <p>5. Qual processo preservava os corpos?</p>
-        <button id="marrom" onclick="responder(5,'errado')">Cremação</button>
-        <button id="dourado" onclick="responder(5,'certo')">Mumificação</button>
-        <button id="amarelo" onclick="responder(5,'errado')">Sepultamento comum</button>
+        <button id="marrom" class="resposta" onclick="responder(5,'errado')">Cremação</button>
+        <button id="dourado" class="resposta" onclick="responder(5,'certo')">Mumificação</button>
+        <button id="amarelo" class="resposta" onclick="responder(5,'errado')">Sepultamento comum</button>
+        </div>
 
         <br><br>
 
