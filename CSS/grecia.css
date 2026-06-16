@@ -116,7 +116,7 @@ section{
     padding: 40px;
     display: block;
     gap: 20px;
-    color: #000013;
+    color: #060529;
     margin-left: 15%;
     margin-right: 15%;
     text-align: justify;
@@ -124,6 +124,9 @@ section{
 
 section img{
     max-width: 400px;
+    border-radius: 8px;
+    min-width: 350px;
+    height: auto;
 }
 
 
@@ -146,6 +149,7 @@ button:hover{
 .quiz{
     gap: 10px;
     margin-left: 90px;
+    margin-bottom: 50px;
 }
 .quiz button{
     display: flex;
@@ -201,3 +205,36 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+hr{
+    color: #060529;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+    justify-items: center;
+    margin: 0px 0px 15px 30px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    justify-self: center;
+    margin-top: 50px;
+}
+footer p{
+    text-decoration: none;
+    color: #fff;
+    justify-self: center;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+
