@@ -225,7 +225,7 @@ button:hover{
 
 .notprincipal {
     padding: 70px 400px;
-    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(../imagens/revolucao.jpeg);
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url(../imagens/revolucaofrancesa.jpg);
     border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
