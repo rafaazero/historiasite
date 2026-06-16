@@ -258,3 +258,24 @@ button:hover{
     padding: 0 70px;
     margin-bottom: 40px;
 }
+
+.contato{
+    display: flex;
+    gap:10px;
+    margin-top: 0%;
+}
+
+.contato img{
+    text-decoration: none;
+    max-width: 20px;
+    transition: transform 0.3s;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+    flex: auto;
+    box-sizing: border-box;
+}
+
+.contato img:hover{
+    background-color: #1d1d1d;
+}
